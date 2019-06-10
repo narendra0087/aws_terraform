@@ -1,16 +1,16 @@
 # AWS configuration
 # AWS
 variable "aws_access_key" {
-    default = "Your access key"
+#    default = "your access key"
 }
 variable "aws_secret_key" {
-  default = "Aws access key"
+#  default = "your secret key"
 }
 variable "aws_region" {
-  default = "Aws region"
+#  default = "us-east-1"
 }
 variable "availablity_zone" {
-  default = "us-east-1"
+#  default = "us-east-1a"
 }
 
 variable "vpc_cidr" {
@@ -25,10 +25,5 @@ variable "private_subnet_cidr" {
   description = "private subnet CIDR"
   default = "10.0.2.0/24"
 }
-
-
-
-
-
 
 
