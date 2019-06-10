@@ -1,5 +1,5 @@
 # AWS configuration
-
+# AWS
 variable "aws_access_key" {
     default = "Your access key"
 }
